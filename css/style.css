@@ -18,23 +18,35 @@ nav {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
     background-color: #daa520;
+    padding: 5px;
+    border: 1px dashed black;
 }
 
 .logo {
-    border: 1px dashed black;
+    border-right: 1px dashed black;
     width: 25%;
 }
 
 .link {
-    border: 1px dashed black;
     width: 50%;
     text-align: center;
 }
 
 .login {
-    border: 1px dashed black;
+    border-left: 1px dashed black;
     width: 25%;
-    
+}
+
+.blue {
+    background-color: #00008b;
+    padding: 50px 0px 55px 0px; 
+
+}
+
+.pink {
+    min-height: 400px;
+    max-width: 905px;
+    margin: 0 auto;
+    background-color: #ee82ee;
 }
