@@ -42,32 +42,53 @@ nav {
 .blue {
     background-color: #00008b;
     padding: 50px 0px 50px 0px; 
-
+    display: flex;
 }
 
 .pink {
     min-height: 400px;
-    max-width: 905px;
+    width: 905px;
     margin: 0 auto;
     background-color: #ee82ee;
+    border: 1px dashed black;
 }
 
-.firstcontainer {
+.container {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     padding: 50px 0px 50px 0px;
-}
-
-.lightblue {
-    min-height: 500px;
-    background-color: #1e90ff;
-    width: 60%;
     
 }
 
-.lightpink {
+.box1 {
+    min-height: 500px;
+    background-color: #1e90ff;
+    width: 60%;
+    border: 1px dashed black;
+}
+
+.box2 {
     min-height: 500px;
     background-color: #ffc0cb;
     width: 40%;
+    border: 1px dashed black;
+}
+
+.box3 {
+    min-height: 500px;
+    background-color: #1e90ff;
+    width: 40%;
+    border: 1px dashed black;
+}
+
+.box4 {
+    min-height: 500px;
+    background-color: #ffc0cb;
+    width: 60%;
+    border: 1px dashed black;
+}
+
+.boxgrey {
+    background-color: #d3d3d3;
 }
