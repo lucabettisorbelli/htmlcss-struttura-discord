@@ -36,11 +36,12 @@ nav {
 .login {
     border-left: 1px dashed black;
     width: 25%;
+    text-align: end;
 }
 
 .blue {
     background-color: #00008b;
-    padding: 50px 0px 55px 0px; 
+    padding: 50px 0px 50px 0px; 
 
 }
 
@@ -49,4 +50,24 @@ nav {
     max-width: 905px;
     margin: 0 auto;
     background-color: #ee82ee;
+}
+
+.firstcontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 50px 0px 50px 0px;
+}
+
+.lightblue {
+    min-height: 500px;
+    background-color: #1e90ff;
+    width: 60%;
+    
+}
+
+.lightpink {
+    min-height: 500px;
+    background-color: #ffc0cb;
+    width: 40%;
 }
