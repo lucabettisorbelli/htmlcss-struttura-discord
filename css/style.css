@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #add8e6;
+}
+
+.containerheader {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #daa520;
+}
+
+.logo {
+    border: 1px dashed black;
+    width: 25%;
+}
+
+.link {
+    border: 1px dashed black;
+    width: 50%;
+    text-align: center;
+}
+
+.login {
+    border: 1px dashed black;
+    width: 25%;
+    
+}
