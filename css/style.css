@@ -9,17 +9,19 @@ header {
 }
 
 .containerheader {
-    padding-top: 16px;
-    padding-bottom: 16px;
-    
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 nav {
-    max-width: 1200px;
-    margin: 0 auto;
+    height: 100%;
     display: flex;
     background-color: #daa520;
-    padding: 5px;
+    align-items: center;
+    padding: 3px;
     border: 1px dashed black;
 }
 
@@ -41,49 +43,58 @@ nav {
 
 .blue {
     background-color: #00008b;
-    padding: 50px 0px 50px 0px; 
+    padding: 50px 0px 50px 0px;
+    height: 500px; 
+    margin: 0 auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+
 .pink {
-    min-height: 400px;
     width: 905px;
-    margin: 0 auto;
+    height: 100%;
     background-color: #ee82ee;
     border: 1px dashed black;
 }
 
-.container {
+.white {
+    background-color: white;
+    height: 605px;
+}
+
+.container1, .container2, .container3 {
     max-width: 1200px;
+    height: 100%;
+    padding: 50px 0px 50px 0px;
     margin: 0 auto;
     display: flex;
-    padding: 50px 0px 50px 0px;
-    
 }
 
 .box1 {
-    min-height: 500px;
+    min-height: 100%;
     background-color: #1e90ff;
     width: 60%;
     border: 1px dashed black;
 }
 
 .box2 {
-    min-height: 500px;
+    min-height: 100%;
     background-color: #ffc0cb;
     width: 40%;
     border: 1px dashed black;
 }
 
 .box3 {
-    min-height: 500px;
+    min-height: 100%;
     background-color: #1e90ff;
     width: 40%;
     border: 1px dashed black;
 }
 
 .box4 {
-    min-height: 500px;
+    min-height: 100%;
     background-color: #ffc0cb;
     width: 60%;
     border: 1px dashed black;
@@ -91,17 +102,18 @@ nav {
 
 .boxgrey {
     background-color: #d3d3d3;
+    height: 605px;
 }
 
 .box5 {
-    min-height: 500px;
+    min-height: 100%;
     background-color: #1e90ff;
     width: 60%;
     border: 1px dashed black;
 }
 
 .box6 {
-    min-height: 500px;
+    min-height: 100%;
     background-color: #ffc0cb;
     width: 40%;
     border: 1px dashed black;
@@ -109,16 +121,21 @@ nav {
 
 .fourthcontainer {
     background-color: #d3d3d3;
-    padding: 50px 0px 50px 0px;
+    height: 1000px;
+    
+    
+    
 }
 
 .bigsquare {
+    padding: 50px 0px 50px 0px;
+    height: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .greensquare{
-    min-height: 900px;
+    min-height: 100%;
     background-color: #228b22;
     border: 1px dashed black;
 }
@@ -132,17 +149,18 @@ footer {
     margin: 0 auto;
     display: flex;
     padding-bottom: 40px;
+    height: 630px;
 }
 
 .fathersquare {
-    min-height: 575px;
+    min-height: 100%;
     background-color: #f08080;
     width: 40%;
     border: 1px dashed black;
 }
 
 .childrensquare {
-    min-height: 575px;
+    min-height: 100%;
     width: 20%;
     background-color: #20b2aa;
     border: 1px dashed black;
